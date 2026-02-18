@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+canvas{
+  background-color: gray;
+  margin-top: 20px;
+}
+
+#score{
+  font-size: 20px;
+}
+
+#start-btn{
+  display: block;   /* ←これ超重要 */
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  margin: 20px auto 20px;
+}
+
