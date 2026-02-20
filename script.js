@@ -17,7 +17,7 @@ const keywords = [
 let currentWord;
 let typedWord = "";
 let fallingWordY = 0;//落下中の文字のy座標(pixel)
-let speed = 1.2;//[pixel/frame]
+let speed = 1.5;//[pixel/frame]
 let stacked = [];//積み上がるwordを格納する
 let gameOver = false;
 let score = 0;
